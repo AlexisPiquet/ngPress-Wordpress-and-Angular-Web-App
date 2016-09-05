@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: lightblue;
+}
+nav ul{
+    padding-left: 0;
+}
+nav ul li{
+    height: inherit;
+    display: inline-block;
+}
+article{
+    display: flex;
+    align-items: center;
+}
+article:nth-child(1){
+    background-color: orange;
+    min-height: 300px;
+}
+article:nth-child(2){
+    background-color: purple;
+    min-height: 300px;    
+}
+article:nth-child(3){
+    background-color: orange;
+    min-height: 300px;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+footer
+.footer-1,
+.footer-2,
+.footer-3,
+.footer-4{
+    background-color: purple;
+    min-height: 300px;
+}
