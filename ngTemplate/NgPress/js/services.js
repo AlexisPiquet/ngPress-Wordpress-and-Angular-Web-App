@@ -129,12 +129,12 @@ angular.module('NgPress')
             getDataWooCommerce: function($scope) {
                 /* Datas WooCommerce */
                 var urlShop = 'wc-api/v3/';
-                var urlCoupons = 'wc-api/v3/coupons?oauth_consumer_key=ck_b4cec90641675cae68f0b187fc1813eeda408780&oauth_consumer_secret=cs_2f421e60a054dfdf796714fd91683a1a27b20ba0&oauth_signature_method=HMAC-SHA1';
-                var urlCustomers = 'wc-api/v3/customers?oauth_consumer_key=ck_b4cec90641675cae68f0b187fc1813eeda408780&oauth_consumer_secret=cs_2f421e60a054dfdf796714fd91683a1a27b20ba0&oauth_signature_method=HMAC-SHA1';
-                var urlOrders = 'wc-api/v3/orders?oauth_consumer_key=ck_b4cec90641675cae68f0b187fc1813eeda408780&oauth_consumer_secret=cs_2f421e60a054dfdf796714fd91683a1a27b20ba0&oauth_signature_method=HMAC-SHA1';
-                var urlProducts = 'wc-api/v3/products?oauth_consumer_key=ck_b4cec90641675cae68f0b187fc1813eeda408780&oauth_consumer_secret=cs_2f421e60a054dfdf796714fd91683a1a27b20ba0&oauth_signature_method=HMAC-SHA1';
-                var urlReports = 'wc-api/v3/reports?oauth_consumer_key=ck_b4cec90641675cae68f0b187fc1813eeda408780&oauth_consumer_secret=cs_2f421e60a054dfdf796714fd91683a1a27b20ba0&oauth_signature_method=HMAC-SHA1';
-                var urlWebhooks = 'wc-api/v3/webhooks?oauth_consumer_key=ck_b4cec90641675cae68f0b187fc1813eeda408780&oauth_consumer_secret=cs_2f421e60a054dfdf796714fd91683a1a27b20ba0&oauth_signature_method=HMAC-SHA1';
+                var urlCoupons = 'wc-api/v3/coupons' + '?oauth_consumer_key=' + 'MAKE YOUR KEY HERE' + '&oauth_consumer_secret=' + 'MAKE YOUR KEY HERE' + '&oauth_signature_method=' + 'HMAC-SHA1';
+                var urlCustomers = 'wc-api/v3/customers' + '?oauth_consumer_key=' + 'MAKE YOUR KEY HERE' + '&oauth_consumer_secret=' + 'MAKE YOUR KEY HERE' + '&oauth_signature_method=' + 'HMAC-SHA1';
+                var urlOrders = 'wc-api/v3/orders' + '?oauth_consumer_key=' + 'MAKE YOUR KEY HERE' + '&oauth_consumer_secret=' + 'MAKE YOUR KEY HERE' + '&oauth_signature_method=' + 'HMAC-SHA1';
+                var urlProducts = 'wc-api/v3/products' + '?oauth_consumer_key=' + 'MAKE YOUR KEY HERE' + '&oauth_consumer_secret=' + 'MAKE YOUR KEY HERE' + '&oauth_signature_method=' + 'HMAC-SHA1';
+                var urlReports = 'wc-api/v3/reports' + '?oauth_consumer_key=' + 'MAKE YOUR KEY HERE' + '&oauth_consumer_secret=' + 'MAKE YOUR KEY HERE' + '&oauth_signature_method=' + 'HMAC-SHA1';
+                var urlWebhooks = 'wc-api/v3/webhooks' + '?oauth_consumer_key=' + 'MAKE YOUR KEY HERE' + '&oauth_consumer_secret=' + 'MAKE YOUR KEY HERE' + '&oauth_signature_method=' + 'HMAC-SHA1';
                 return $q.all([
                     $http.get(urlShop),
                     $http.get(urlCoupons),
